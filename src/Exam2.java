@@ -1,5 +1,5 @@
 
-interface InterfaceHello{
+interface InterfaceHello{ //デフォルトメソッド
 	default String ReturnMsg() {
 		return "Hello World";
 	}
