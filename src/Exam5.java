@@ -1,9 +1,13 @@
 
-public class Exam5 { //不変クラス=不変オブジェクト
+final class Exam5 { //不変クラス
+	private final int id; //変更でいなようにfinal修飾子
 
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	public Exam5(int id) {
+		this.id = id;
 	}
-
+	public int getId() { //ゲッターは提供するがセッターは提供しない
+		return this.id;
+	}
 }
+
+
