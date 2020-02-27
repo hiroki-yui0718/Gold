@@ -1,10 +1,14 @@
+import java.util.Arrays;
+import java.util.List;
 
 public class Exam6 {
 	void  outerMethod(){
-
+		List<String> list = Arrays.asList("H","Y");
 		class LocalClass{
 			public void method() {
 				System.out.println("Hello Wold");
+
+				list.forEach(System.out::print);
 			}
 		}
 		new LocalClass().method();

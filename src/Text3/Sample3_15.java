@@ -1,4 +1,4 @@
-package Text;
+package Text3;
 
 interface MyIn<T>{ void method(T t);}
 class Foo implements MyIn<String>{

@@ -1,4 +1,4 @@
-package Text;
+package Text3;
 
 class Gen<T>{ //どんな型も当てはめることが可能
 	private T var1;
